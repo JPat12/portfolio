@@ -2,7 +2,10 @@
 	padding: 0px;
 	margin: 0px;
 	box-sizing: border-box;
+	font-family: 'Benne', serif;
+	overflow-x: hidden;
 }
+
 
 ul {
 	margin-top: 10px;
@@ -34,11 +37,15 @@ ul {
 	color: black;
 }
 
+.lead {
+	color: #1CD777;
+	font-family: montsserat verdana;
 
+}
 
-.jumbotron {
+.jumb1 {
   color: white;
-  background-image: url(images/bg3.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/bg3.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -49,91 +56,288 @@ ul {
 }
 
 p {
-	font-family: arvo verdana;
-	color: darkgray;
+	font-family: 'Merriweather', serif;
+	color: black;
+	font-size: 20px;
 }
 
 #who {
 	/*font-family: 'Caveat', cursive;*/
 	/*font-family: 'Mate SC', serif;*/
 	font-family: 'Shippori Mincho', serif;
-	font-size: 30px;
-	padding-top: 30px;
+	font-size: 40px;
+	padding-top: 40px;
 	margin-bottom: 30px;
+	text-align: center;
+}
+
+#quote {
+	margin-bottom: 20px;
+	color: #1CD777;
+	font-size: 20px;
+	margin-top: 30px;
 }
 
 .aboutCont {
 	text-align: justify;
+
 }
 
-#move1 {
-	height: 250px;
+#hire a {
+	text-decoration: none;
+	color: #1CD777;
+}
+
+.aboutCont p {
+	color: #3d3d3b;
+}
+
+.move {
 	width: 250px;
-}
-
-#move2 {
 	height: 250px;
-	width: 250px;
+	border-radius: 50%;
+
 }
 
-#move3 {
-	height: 250px;
-	width: 250px;
-}
-
-
-.carousel-item {
-	border: 1px solid black;
-}
 
 #projects {
 	margin: 5px;
 	font-family: 'Shippori Mincho', serif;
-	font-size: 30px;
+	font-size: 40px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+
 }
 
 .projBanner {
-	background-color: lightgray;
 	color: white;
-	padding: 1px;
-	margin-top: 100px;
-	margin-bottom: 50px;
+	margin-top: 15px;
+	margin-bottom: 1px;
 	width: 100%;
 }
 
 .projImg {
 	height: 250px;
 	width: 250px;
+	border-radius: 10px;
+}
+
+.projbg {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/bg1.jpg);
+	margin-top: 20px;
+	padding-bottom: 40px;
+}
+
+.pr1 p {
+	text-align: left;
+	color: white;
+	text-align: justify;
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+
+.pr1 .projImg {
+	margin-top: 50px;
+}
+
+.pr1 h5 {
+	font-size: 18px;
+}
+
+.spacing {
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+.spacing h3 {
+	color: #1CD777;
+	border: 1px solid #1CD777;
+	padding: 5px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.view {
+	padding: 5px;
+	font-family: 'Shippori Mincho', serif;
+	margin-bottom: 140px;
+	color: black;
+	font-weight: bold;
+	display: block;
+	margin: auto;
+	border: 1px solid #1CD777;
+	background-color: white;
+}
+
+.view a {
+	text-decoration: none;
+	color: #1CD777;
+	font-size: 12px;
+}
+
+.aboutCont button {
+	border: 1px solid #1CD777;
+	padding: 5px;
+}
+
+.aboutCont h5 {
+	text-align: center;
+}
+
+
+.mainContainer {
+	border: 1px solid black;
+	padding-bottom: : 15px;
+	margin-top: 50px;
+	width: 70%;
+}
+
+.formContainer {
+	padding-bottom: 20px;
+}
+
+.form-group {
+	width: 100%;
+}
+
+.form-group input,
+.form-group textarea {
+	width: 100%;
+}
+
+#submit {
+	width: 100%;
+	background-color: #1CD777;
+	color: white;
+	border: none;
+}
+
+.form-group label {
+	font-size: 12px;
+}
+
+section {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#contact h4 {
+	padding-bottom: 20px;
+	color: black;
+}
+
+.contactCont {
+	margin-bottom: 20px;
+}
+
+#contact p {
+	color: #1CD777;
+	font-family: FontAwesome;
+	font-size: 20px;
+}
+
+#contact .fas {
+	color: #1CD777;
+	font-size: 18px;
+	display: block;
+	margin-bottom: 5px;
+}
+
+.map h4 {
+	padding-bottom: 20px;
+}
+
+#message {
+	border-style: 1px solid black;
+	padding-bottom: 20px;
 }
 
 
 
+#proj {
+	color: white;
+}
 
 
+.fas {
+	font-family: FontAwesome;
+	color: #d3d3d3;
+}
+
+.fab {
+	font-family: FontAwesome;
+	color: #d3d3d3;
+}
+
+.aboutFooter {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.aboutFooter .logo-text span {
+	color: #1CD777;
+}
+
+.aboutFooter .logo-text {
+	color: #d3d3d3;
+}
+
+.aboutFooter .contact span {
+	display: block;
+	margin-bottom: 8px;
+	font-size: 15px;
+}
+
+.aboutFooter p {
+	color: #d3d3d3;
+	font-size: 17px;
+}
+
+.footerCopy {
+	text-align: center;
+	background-color: #1CD777;
+
+}
+
+.footerRow {
+	margin-top: 50px;
+	background-color: #303036;
+}
+
+.socials .fab {
+	font-size: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #1CD777;
+	padding-top: 50px;
+}
+
+.copywright h5 {
+	padding-top: 10px;
+	color: white;
+	font-size: 17px;
+}
+
+#mapImg {
+	height: 250px;
+	width: 250px;
+	margin-bottom: 20px;
+}
 
 
+.delete {
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 1px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.copywright p {
+	padding-bottom: 5px;
+	color: white;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
 
 @media (min-width: 1px) {
 	.jumbotron {
@@ -203,7 +407,7 @@ p {
 }
 @media (min-width: 1px) {
 	.jumbotron p {
-		font-size: 20px;
+		font-size: 15px;
 		text-align: center;
 	}
 }
@@ -226,7 +430,7 @@ p {
 
 @media (min-width: 1024px) {
 	.jumbotron p {
-		font-size: 25px;
+		font-size: 20px;
 		text-align: left;
 		padding-left: 25px;
 	}
@@ -279,5 +483,158 @@ p {
 		padding-right: 45px;
 		padding-top: 10px;
 
+	}
+}
+
+@media (min-width: 1px) {
+	.projImg {
+		height: 200px;
+		width: 200px;
+		margin-bottom: 25px;
+		margin: auto;
+	}
+}
+
+@media (min-width: 351px) {
+	.projImg {
+		height: 200px;
+		width: 200px;
+		margin-bottom: 25px;
+		margin: auto;
+	}
+}
+
+@media (min-width: 768px) {
+	.projImg {
+		height: 150px;
+		width: 150px;
+		margin-bottom: 25px;
+		margin: auto;
+	}
+}
+
+
+@media (min-width: 1024px) {
+	.projImg {
+		height: 200px;
+		width: 350px;
+		margin-bottom: 15px;
+		margin: auto;
+	}
+}
+
+@media (min-width: 1440px) {
+	.projImg {
+		height: 250px;
+		width: 500px;
+		margin-bottom: 15px;
+		margin: auto;
+	}
+}
+
+@media (min-width: 1px) {
+	#projects {
+		font-size: 25px;
+	}
+}
+
+@media (min-width: 351px) {
+	#projects {
+		font-size: 25px;
+	}
+}
+
+@media (min-width: 1024px) {
+	#projects {
+		font-size: 40px;
+	}
+}
+
+@media (min-width: 1440px) {
+	#projects {
+		font-size: 40px;
+	}
+}
+
+
+@media (min-width: 1px) {
+	.pr1 p {
+		font-size: 15px;
+	}
+}
+
+
+@media (min-width: 375px) {
+	.pr1 p {
+		font-size: 15px;
+	}
+}
+
+
+@media (min-width: 768px) {
+	.pr1 p {
+		font-size: 15px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.pr1 p {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1px) {
+	.aboutCont p {
+		font-size: 15px;
+	}
+}
+
+@media (min-width: 375px) {
+	.aboutCont p {
+		font-size: 15px;
+	}
+}
+
+
+@media (min-width: 425px) {
+	.aboutCont p {
+		font-size: 17px;
+	}
+}
+
+@media (min-width: 1px) {
+	.pr1 h5 {
+		font-size: 15px;
+		padding-bottom: 20px;
+	}
+}
+
+
+
+@media (min-width: 375px) {
+	.pr1 h5 {
+		font-size: 15px;
+		padding-bottom: 20px;
+	}
+}
+
+
+@media (min-width: 425px) {
+	.pr1 h5 {
+		font-size: 15px;
+		padding-bottom: 20px;
+	}
+}
+
+
+@media (min-width: 768px) {
+	.pr1 h5 {
+		font-size: 15px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.pr1 h5 {
+		font-size: 18px;
 	}
 }
